@@ -1,0 +1,308 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<title>Stock Taking System </title>
+</head>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<script src="myscripts.js"></script> 
+
+<body>
+    
+    <h2>
+    <div class="dropdown">
+        <button class="dropbtn">Dropdown</button>
+        <div class="dropdown-content">
+          <a href="Nurseboxx2Only.html">Counsellor box</a>
+        </div>
+      </div> 
+    
+      <center>
+        <input type="submit" name="button_all" id="button_all1" style="font-size:18px; color:rgb(26, 24, 24); background:azure;" onclick="four_numbers()" value=" = " title="Click here to find the sum of four values" />
+        <input type="submit" name="button_all" id="button_all1" style="font-size:18px; color:red; background:azure;" onclick="clear_box()" value="Reset" /></center>
+      
+      <br>
+     <br>STOCK PACKED FOR DEPLOYMENT <br> WEEKLY COUNT</h2>
+    <div class="table-wrapper">
+        <table class="fl-table">
+            <thead>
+            <tr>
+                <th>Item Description</th>
+                <th>Dispensed</th>
+                <th>Counsumed</th>
+                <th>Counsumed</th>
+                <th>Counsumed</th>
+                <th>Counsumed</th>
+                <th>Total Consumed</th>
+                <th>Balance</th>
+            </tr>
+            </thead>
+            
+            <tr>
+                <td><b>Nurse box x2 Only</b>
+                
+                </td>
+                
+            </tr>
+
+            <tr>
+                <td>Referral folders</td>
+                <td><input type="number" autofocus="autofocus" id="quantity" name="quantity" min="1" max="5000"></td>
+                <td><input type="number" style="width:100px; font-size:18px; text-align:center;" autofocus="autofocus" step="1" min="0" name="box_number_1" id="box_number_1" size="3"/> 
+                    <b style="color:rgb(26, 24, 24); font-size:18px;">+</b> </td>
+                <td><input type="number" style="width:100px; font-size:18px; text-align:center;" step="1" min="0" name="box_number_2" id="box_number_2" size="3"/> 
+                    <b style="color:rgb(26, 24, 24); font-size:18px;">+</b> </td>
+                <td><input type="number" style="width:100px; font-size:18px; text-align:center;" step="1" min="0" name="box_number_3" id="box_number_3" size="3"/> 
+                    <b style="color:rgb(26, 24, 24); font-size:18px;">+</b> </td>
+                <td> <input type="number" style="width:100px; font-size:18px; margin-right:10px; text-align:center;" step="1" min="0" name="box_number_4" id="box_number_4" size="3"/>= </td>
+                
+                    <br /><br />
+                     </td>
+                <td> <input type="text" style="width:100px; text-align:center; font-size:18px;" name="box_number_5" id="box_number_5" size="10" readonly="true"/></td>
+
+                <td> <input type="text" style="width:100px; text-align:center; font-size:18px;" name="box_number_6" id="box_number_5" size="10" readonly="true"/></td>
+                
+                
+                
+            </tr>
+
+
+            <tr>
+                <td>Barcode rolls</td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+            </tr>
+
+
+            <tr>
+                <td>Nurse Box</td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+            </tr>
+
+            <tr>
+                <td>Red Bin Liners</td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+            </tr>
+
+
+            <tr>
+                <td>Black bin liners</td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+            </tr>
+
+
+            <tr>
+                <td>CareWorks tablecloths</td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+            </tr>
+
+
+            <tr>
+                <td>Sharps container 1Ltr</td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+            </tr>
+
+
+            <tr>
+                <td>Digital timer</td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+            </tr>
+
+
+            <tr>
+                <td>Temperature Combo</td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+            </tr>
+
+            <tr>
+                <td>Black pens</td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+            </tr>
+
+
+            <tr>
+                <td>Small envelpes C6</td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+            </tr>
+
+            <tr>
+                <td>Waist measure </td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+            </tr>
+
+
+            <tr>
+                <td>BP machine +standard cuff</td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+            </tr>
+
+
+            <tr>
+                <td>BP machine +standard cuff</td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+            </tr>
+
+
+            <tr>
+                <td>Obesse cuff</td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+            </tr>
+
+
+            <tr>
+                <td>Nurse folder</td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+            </tr>
+
+
+            <tr>
+                <td>Kernel Multi check  meters</td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+            </tr>
+
+
+
+            <tr>
+                <td>Condom demonstrators</td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+            </tr>
+
+
+            <tr>
+                <td>Sanitizers</td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+                <td><input type="number" id="quantity" name="quantity" min="1" max="5000"></td>
+            </tr>
+
+            <tbody>
+        </table>
+    </div>
+
+    <script type="text/javascript">
+        function four_numbers() { 
+        var first_number = document.getElementById("box_number_1").value;
+        var second_number = document.getElementById("box_number_2").value; 
+        var third_number = document.getElementById("box_number_3").value;
+        var fourth_number = document.getElementById("box_number_4").value;
+        var result =parseInt(first_number)+parseInt(second_number) 
+        +parseInt(third_number)+parseInt(fourth_number);
+        var box_number_5 = document.getElementById('box_number_5');
+        box_number_5.value=result;
+         } 
+         
+         function clear_box() {
+         document.getElementById("box_number_1").value="";	 
+         document.getElementById("box_number_2").value="";	 
+         document.getElementById("box_number_3").value="";	 
+         document.getElementById("box_number_4").value="";	 
+         document.getElementById("box_number_5").value="";	 
+         }
+        </script>
+</body>
+
+</html> 
